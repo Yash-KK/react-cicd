@@ -25,6 +25,10 @@ jobs:
       - name: Lint Code
         run: npm run lint
 
+      - name: Create .env
+        run: |
+          echo "VITE_API_URL=${{ secrets.VITE_API_URL }}" > .env
+
       - name: Build Project
         run: npm run build
 
