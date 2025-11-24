@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button"
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-400">
-      <Button className="hover:bg-blue-800">Setup Tailwind, ShadCN, CICD</Button>
+    <div className="flex items-center justify-center h-screen bg-white">
+      <Button className="hover:bg-blue-800">CICD (V2)</Button>
     </div>
   )
 }
