@@ -9,7 +9,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route
           path="/login"
-          element={<LoginPage onLogin={(role: any, email: string) => {}} />}
+          element={<LoginPage onLogin={() => {}} />}
         />
       </Routes>
     </BrowserRouter>
